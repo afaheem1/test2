@@ -1,16 +1,8 @@
-# This is a basic workflow to help you get started with Actions
-
-name: My Workflow
+name: first_workflow
 on: [workflow_dispatch]
 jobs:
-  build:
-    runs-on: ubuntu-latest  # Replace with the desired runner type (e.g., ubuntu-latest, windows-latest, macos-latest)
-
+  Build:
+    runs-on: ubuntu-latest
     steps:
-      - name: greetings
-        run: echo "Hello"
-      - name: Bye_greetings
-        run: echo "Bye"
-
-
-
+      - name: Greetings
+        run: echo "Hello, Good Morning!"
