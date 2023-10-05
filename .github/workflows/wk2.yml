@@ -1,0 +1,12 @@
+name: workflow_2
+on: [workflow_dispatch]
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: build1
+        run: |
+          echo "Hello"
+          echo "Build"
+          echo "success"
+    
