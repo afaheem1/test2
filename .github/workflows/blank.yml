@@ -9,6 +9,8 @@ jobs:
     steps:
       - name: greetings
         run: echo "Hello"
+      - name: Bye_greetings
+        run: echo "Bye"
 
 
 
