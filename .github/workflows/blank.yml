@@ -1,9 +1,9 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: first-workflow
 on: workflow_dispatch
 jobs:
-  build:
+  first-job:
     run-on: ubuntu-latest
     steps:
       - name: ci_build
